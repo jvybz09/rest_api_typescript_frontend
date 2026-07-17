@@ -1,4 +1,4 @@
-import { safeParse, pipe, string, transform, number, parse, boolean } from 'valibot'
+import { safeParse, pipe, string, transform, number, parse } from 'valibot'
 import axios from 'axios'
 import {DrafProductSchema, ProductsSchema, ProductSchema, type Product} from '../types/index'
 import { toBoolean } from '../utils';
